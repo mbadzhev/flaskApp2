@@ -15,7 +15,7 @@ store_url = "35.210.137.140"
 
 @app.route('/')
 def home_page():
-    return render_template("films.html")
+    return render_template("index.html")
 
 @app.route('/films')
 def films_page():
