@@ -1,0 +1,41 @@
+:root {
+   --bs-red: #e50914;
+}
+
+section {
+   border-top: 8px solid #222;
+   padding-top: 50px;
+   padding-bottom: 40px;
+   background-color: #000000;
+}
+
+h1 {
+   background-color: #e50914;
+   font-style: italic;
+}
+
+.bg-black {
+   border-top: 8px solid #222;
+   background-color: #000000;
+}
+
+.bg-black-nb {
+   background-color: #000000;
+}
+
+a.navbar-brand {
+   color: #e50914 !important;
+   font-weight: bold;
+   font-style: italic;
+}
+
+.bg-img {
+   background-image: url(../img/bg.jpg);
+}
+
+.buttonText {
+   background-color: #e50914;
+   color: #fff;
+   border: 0px;
+   cursor: pointer;
+}
