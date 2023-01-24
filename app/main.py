@@ -267,7 +267,7 @@ def video_page(uuid):
                     if (key2=="Name"):
                         name=index[key][key2]
 
-    return render_template("video.html", title0=name, video0="boom.mp4")
+    return render_template("video.html", title0=name, video0=file)
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0',port="80")
